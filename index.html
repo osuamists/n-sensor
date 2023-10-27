@@ -5,18 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frequência Ar condicionado</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <div class="container">
         <h1>Frequência do Ar Condicionado</h1>
         <p>Informações capturadas por um nó sensor:</p>
         <div id="sensor-data">
-            Frequência: <span id="frequency">-</span> Hz
+            Sinal: <span id="signal">-</span> HEX
         </div>
     </div>
-    
-    <script src="script.js"></script>
 
+    <div class="remote">
+        <h1>AR CONDICIONADO</h1>
+        <div class="button-container">
+            <div id="power-button" class="off" onclick="togglePower()">
+                <span id="power-icon">OFF</span>
+            </div>
+        </div>
+        <div id="led">LED: Desligado</div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
