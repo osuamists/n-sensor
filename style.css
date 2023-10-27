@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-image: url("Downloads/frequencia.jpg");
+    background-image: url("images/ar.jfif");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -13,10 +13,10 @@ body {
 }
 
 .container {
-    background-color: rgba(255, 255, 255, 0.7); /* Adiciona uma cor de fundo sem opacidade para o contêiner */
+    background-color: rgba(255, 255, 255, 0.7);
     text-align: center;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 5%;
+    border-radius: 10%;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
